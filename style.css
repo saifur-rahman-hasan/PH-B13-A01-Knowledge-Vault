@@ -19,13 +19,155 @@ body {
 
 /* Header Styles */
 header {
-    background-color: #333;
-    color: white;
+    background-color: #ffffff;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.navbar {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo Styles */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    height: 40px;
+    width: auto;
+}
+
+/* Navigation Menu Styles */
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li {
+    display: inline-block;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nav-menu a:hover {
+    color: #52a370;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #52a370;
+    color: #ffffff;
+    border: none;
+    padding: 12px 28px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #45916a;
 }
 
 /* Footer Styles */
 footer {
-    background-color: #333;
-    color: white;
-    
+    background-color: #0d2b3e;
+    color: #ffffff;
+    padding: 60px 0 30px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Footer Top Section */
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+/* Footer Logo */
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.footer-logo img {
+    height: 45px;
+    width: auto;
+}
+
+/* Social Links Section */
+.social-links {
+    text-align: right;
+}
+
+.social-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: #ffffff;
+}
+
+.social-icons {
+    display: flex;
+    gap: 12px;
+    justify-content: flex-end;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    color: #0d2b3e;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.social-icon:hover {
+    background-color: #52a370;
+    color: #ffffff;
+}
+
+/* Footer Divider */
+.footer-divider {
+    border: none;
+    border-top: 1px solid gray;
+    margin: 30px 0;
+}
+
+/* Footer Bottom Section */
+.footer-bottom {
+    text-align: center;
+}
+
+.copyright {
+    font-size: 14px;
+    color: lightgray;
+    margin: 0;
 }

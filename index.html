@@ -7,6 +7,9 @@
     <!-- title -->
     <title>Knowledge Vault</title>
 
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
     <!-- css link -->
     <link rel="stylesheet" href="./style.css">
 
@@ -14,9 +17,24 @@
 <body>
     <!-- Header -->
     <header>
-        <div class="header-content">
-            <h1>Header</h1>
-        </div>
+        <nav class="navbar">
+            <!-- Logo -->
+            <div class="logo">
+                <img src="./assets/logo-navbar.png" alt="Knowledge Vault Logo">
+            </div>
+
+            <!-- Navigation Menu -->
+            <ul class="nav-menu">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#why-different">Why It's Different</a></li>
+            </ul>
+
+            <!-- CTA Button -->
+            <div class="nav-button">
+                <button class="btn-primary">Get Early Access</button>
+            </div>
+        </nav>
     </header>
     <!-- End of Header -->
 
@@ -71,8 +89,38 @@
 
     <!-- Footer -->
     <footer>
-        <div class="footer-content">
-            <h1>Footer</h1>
+        <div class="footer-container">
+            <!-- Footer Top Section -->
+            <div class="footer-top">
+                <!-- Logo -->
+                <div class="footer-logo">
+                    <img src="./assets/logo-footer.png" alt="Knowledge Vault Logo">
+                </div>
+
+                <!-- Social Links -->
+                <div class="social-links">
+                    <h3 class="social-title">Social Links</h3>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon" aria-label="Twitter">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="Facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Divider -->
+            <hr class="footer-divider">
+
+            <!-- Footer Bottom Section -->
+            <div class="footer-bottom">
+                <p class="copyright">© 2026 Personal Knowledge Vault. All rights reserved.</p>
+            </div>
         </div>
     </footer>
     <!-- End of Footer -->
