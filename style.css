@@ -1,0 +1,31 @@
+/* Reset and Global Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #1a1a1a;
+    background-color: #ffffff;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: white;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    
+}
