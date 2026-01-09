@@ -511,11 +511,13 @@ footer {
     justify-content: center;
     text-decoration: none;
     font-size: 18px;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
 }
 
 .social-icon:hover {
     background-color: #52a370;
     color: #ffffff;
+    transform: translateY(-2px);
 }
 
 /* Footer Divider */
@@ -534,4 +536,296 @@ footer {
     font-size: 14px;
     color: lightgray;
     margin: 0;
+}
+
+/* 
+    Responsive Styles for Tablet and Mobile Devices
+*/
+
+/* Tablet Styles (max-width: 768px) */
+@media screen and (max-width: 768px) {
+
+    /* Navigation */
+    .navbar {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .nav-menu {
+        gap: 20px;
+    }
+
+    .nav-menu a {
+        font-size: 14px;
+    }
+
+    .nav-button {
+        width: 100%;
+        order: 3;
+    }
+
+    .nav-button .btn-primary {
+        width: 100%;
+    }
+
+    /* Banner Section */
+    .banner {
+        min-height: 400px;
+        padding: 60px 20px;
+    }
+
+    .banner-heading {
+        font-size: 36px;
+    }
+
+    .banner-description {
+        font-size: 16px;
+    }
+
+    .banner-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .banner-buttons button {
+        width: 100%;
+        justify-content: center;
+    }
+
+    /* Notes Section */
+    .notes {
+        padding: 60px 20px;
+    }
+
+    .notes-title {
+        font-size: 32px;
+    }
+
+    .notes-subtitle {
+        font-size: 16px;
+    }
+
+    .notes-cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    /* Second Brain Section */
+    .second-brain {
+        padding: 60px 20px;
+    }
+
+    .second-brain-container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .second-brain-image img {
+        max-width: 400px;
+    }
+
+    .second-brain-title {
+        font-size: 32px;
+    }
+
+    /* Early Access Section */
+    .early-access-section {
+        padding: 60px 20px;
+    }
+
+    .early-access-title {
+        font-size: 32px;
+    }
+
+    /* Footer */
+    .footer-top {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .social-links {
+        text-align: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+}
+
+/* Mobile Styles (max-width: 480px) */
+@media screen and (max-width: 480px) {
+
+    /* Navigation */
+    .navbar {
+        padding: 0 15px;
+    }
+
+    .logo img {
+        height: 32px;
+    }
+
+    .nav-menu {
+        width: 100%;
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+        order: 2;
+    }
+
+    .nav-menu a {
+        font-size: 16px;
+    }
+
+    /* Banner Section */
+    .banner {
+        min-height: 350px;
+        padding: 40px 15px;
+    }
+
+    .banner-heading {
+        font-size: 28px;
+    }
+
+    .banner-description {
+        font-size: 14px;
+        margin-bottom: 24px;
+    }
+
+    .banner-tag span {
+        font-size: 12px;
+        padding: 6px 16px;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    /* Notes Section */
+    .notes {
+        padding: 40px 15px;
+    }
+
+    .notes-header {
+        margin-bottom: 40px;
+    }
+
+    .notes-title {
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+
+    .notes-subtitle {
+        font-size: 14px;
+    }
+
+    .notes-cards {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .note-card {
+        padding: 30px 20px;
+    }
+
+    .note-icon {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 20px;
+    }
+
+    .note-icon i {
+        font-size: 24px;
+    }
+
+    .note-title {
+        font-size: 18px;
+    }
+
+    .note-description {
+        font-size: 14px;
+    }
+
+    /* Second Brain Section */
+    .second-brain {
+        padding: 40px 15px;
+    }
+
+    .second-brain-container {
+        gap: 30px;
+    }
+
+    .second-brain-image img {
+        max-width: 100%;
+    }
+
+    .second-brain-title {
+        font-size: 24px;
+        margin-bottom: 16px;
+    }
+
+    .second-brain-description {
+        font-size: 14px;
+        margin-bottom: 24px;
+    }
+
+    .second-brain-list li {
+        font-size: 14px;
+        gap: 10px;
+    }
+
+    .second-brain-list li i {
+        font-size: 16px;
+    }
+
+    /* Early Access Section */
+    .early-access-section {
+        padding: 40px 15px;
+    }
+
+    .early-access-title {
+        font-size: 24px;
+        margin-bottom: 16px;
+    }
+
+    .early-access-subtitle {
+        font-size: 16px;
+    }
+
+    .early-access-message {
+        font-size: 14px;
+        margin-bottom: 24px;
+    }
+
+    .btn-cta {
+        width: 100%;
+        justify-content: center;
+        padding: 14px 24px;
+    }
+
+    /* Footer */
+    footer {
+        padding: 40px 0 20px;
+    }
+
+    .footer-container {
+        padding: 0 15px;
+    }
+
+    .footer-logo img {
+        height: 36px;
+    }
+
+    .social-title {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .social-icon {
+        width: 36px;
+        height: 36px;
+        font-size: 16px;
+    }
 }
