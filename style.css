@@ -205,6 +205,96 @@ header {
     align-items: center;
 }
 
+/* Notes Section */
+.notes {
+    padding: 80px 20px;
+    background-color: #ffffff;
+}
+
+.notes-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Notes Header */
+.notes-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.notes-title {
+    font-size: 42px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 16px;
+}
+
+.notes-subtitle {
+    font-size: 18px;
+    color: #666666;
+    line-height: 1.6;
+    margin: 0 auto;
+}
+
+/* Notes Cards Grid */
+.notes-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+/* Individual Note Card */
+.note-card {
+    background-color: #f8f9fa;
+    padding: 40px 30px;
+    border-radius: 12px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.note-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Note Icon */
+.note-icon {
+    width: 80px;
+    height: 80px;
+    background-color: #ef5350;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 24px;
+}
+
+.note-icon i {
+    font-size: 32px;
+    color: #ffffff;
+}
+
+.note-icon img {
+    width: 32px;
+    height: 32px;
+    filter: brightness(0) invert(1);
+}
+
+/* Note Card Text */
+.note-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 12px;
+}
+
+.note-description {
+    font-size: 15px;
+    color: #666666;
+    line-height: 1.6;
+    margin: 0;
+}
+
 /* Footer Styles */
 footer {
     background-color: #0d2b3e;
