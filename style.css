@@ -384,6 +384,71 @@ header {
     line-height: 1.6;
 }
 
+/* Early Access Section */
+.early-access-section {
+    padding: 100px 20px;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.early-access-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.early-access-title {
+    font-size: 44px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 24px;
+    line-height: 1.2;
+}
+
+.early-access-subtitle {
+    font-size: 18px;
+    color: #666666;
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+
+.early-access-message {
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 32px;
+}
+
+/* CTA Button */
+.btn-cta {
+    background-color: #52a370;
+    color: #ffffff;
+    border: none;
+    padding: 16px 32px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-bottom: 20px;
+}
+
+.btn-cta:hover {
+    background-color: #45916a;
+    transform: translateY(-2px);
+}
+
+.btn-cta i {
+    font-size: 14px;
+}
+
+.early-access-footer {
+    font-size: 14px;
+    color: #888888;
+    margin: 0;
+}
+
 /* Footer Styles */
 footer {
     background-color: #0d2b3e;
