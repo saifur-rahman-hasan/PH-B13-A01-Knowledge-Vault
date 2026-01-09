@@ -313,7 +313,6 @@ header {
 .second-brain-image {
     flex: 1;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
@@ -321,7 +320,7 @@ header {
     width: 100%;
     max-width: 500px;
     height: auto;
-    border-radius: 10px;
+    border-radius: 16px;
 }
 
 /* Second Brain Content */
@@ -386,14 +385,16 @@ header {
 
 /* Early Access Section */
 .early-access-section {
-    padding: 100px 20px;
-    background-color: #f5f5f5;
+    padding: 80px 20px;
     text-align: center;
 }
 
 .early-access-container {
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
+    background-color: #f5f5f5;
+    padding: 80px 40px;
+    border-radius: 16px;
 }
 
 .early-access-title {
@@ -621,7 +622,7 @@ footer {
     }
 
     .second-brain-image img {
-        max-width: 400px;
+        max-width: 100%;
     }
 
     .second-brain-title {
